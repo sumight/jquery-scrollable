@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html' charset='UTF-8'>
+	<style type="text/css">
+		.wrap{
+			width: 300px;
+			height: 400px;
+			outline: 1px solid;
+			box-shadow: 2px 2px 4px;
+			margin: 0 auto;
+			overflow: hidden;
+			background-color: rgb(237, 245, 252);
+		}
+		.scrollbox{
+
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="scrollbox">
+			<ul>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+				<li>这是一行可爱的文字</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src='http://code.jquery.com/jquery-2.0.3.min.js'></script>
+	<script type="text/javascript" src='../js/jquery.mousewheel.js' ></script>
+	<script type="text/javascript" src='../js/jquery.scrollable.js' ></script>
+	<script type="text/javascript">
+		$(".wrap").scrollable({
+			startTop:0,
+			minTop: -148,
+			maxTop: 0,
+			step: 4,
+			threshold: 5
+		});
+	</script>
+</body>
+</html>
